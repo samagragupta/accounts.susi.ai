@@ -54,6 +54,7 @@ class Login extends Component {
       success: false,
       validForm: false,
       emailError: true,
+      passwordError: true,
       showDialog: false,
       checked: false,
       showForgotPwd: false,

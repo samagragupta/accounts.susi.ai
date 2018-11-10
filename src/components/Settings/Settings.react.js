@@ -1152,6 +1152,8 @@ class Settings extends Component {
     }
 
     if (this.state.selectedSetting === 'Theme') {
+      this.setState.settingsChanged = false;
+      // this.setState({ settingsChanged: false });
       currentSetting = '';
       currentSetting = (
         <div>
